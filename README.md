@@ -1,6 +1,7 @@
-# Under Construction
+# dotodo - A simple todo app with a nice UI.
 
-> I don't really know what to put here yet so give me a bit...
+
+> I don't really know what to put here yet so give me a bit... Yes, this is still being built.
 
 ## Todo (more like dotodo amirite?) (excuse my 2 am humour):
  1. Add Calendar view
