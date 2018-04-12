@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		95837EC6A3FB99CCD56A4675 /* Pods_dotodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27046F78EAA0993FB4A61B9B /* Pods_dotodo.framework */; };
 		FA12313B20164B6F000D31A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12313A20164B6F000D31A1 /* AppDelegate.swift */; };
-		FA12313D20164B6F000D31A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12313C20164B6F000D31A1 /* ViewController.swift */; };
 		FA12314020164B6F000D31A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA12313E20164B6F000D31A1 /* Main.storyboard */; };
 		FA12314220164B6F000D31A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA12314120164B6F000D31A1 /* Assets.xcassets */; };
 		FA12314520164B6F000D31A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA12314320164B6F000D31A1 /* LaunchScreen.storyboard */; };
-		FA12314D20164C3D000D31A1 /* TaskButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA12314C20164C3D000D31A1 /* TaskButton.xib */; };
-		FA12314F20165166000D31A1 /* TaskButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12314E20165166000D31A1 /* TaskButton.swift */; };
+		FACD44C2207F32A100ABF3F6 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD44C1207F32A100ABF3F6 /* LoadingScreen.swift */; };
+		FACD44C4207F32B800ABF3F6 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD44C3207F32B800ABF3F6 /* LoginScreen.swift */; };
+		FACD44C6207F333E00ABF3F6 /* CustomRootTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD44C5207F333E00ABF3F6 /* CustomRootTabViewController.swift */; };
+		FACD44C8207F344400ABF3F6 /* CalendarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD44C7207F344400ABF3F6 /* CalendarScreen.swift */; };
+		FACD44CA207F345200ABF3F6 /* TasksScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD44C9207F345200ABF3F6 /* TasksScreen.swift */; };
+		FACD44CC207F34CA00ABF3F6 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD44CB207F34CA00ABF3F6 /* SettingsScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +25,16 @@
 		3B2647FDECA12DF35F224243 /* Pods-dotodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dotodo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dotodo/Pods-dotodo.debug.xcconfig"; sourceTree = "<group>"; };
 		FA12313720164B6F000D31A1 /* dotodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dotodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA12313A20164B6F000D31A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA12313C20164B6F000D31A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA12313F20164B6F000D31A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA12314120164B6F000D31A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA12314420164B6F000D31A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA12314620164B6F000D31A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA12314C20164C3D000D31A1 /* TaskButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskButton.xib; sourceTree = "<group>"; };
-		FA12314E20165166000D31A1 /* TaskButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskButton.swift; sourceTree = "<group>"; };
+		FACD44C1207F32A100ABF3F6 /* LoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
+		FACD44C3207F32B800ABF3F6 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		FACD44C5207F333E00ABF3F6 /* CustomRootTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRootTabViewController.swift; sourceTree = "<group>"; };
+		FACD44C7207F344400ABF3F6 /* CalendarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarScreen.swift; sourceTree = "<group>"; };
+		FACD44C9207F345200ABF3F6 /* TasksScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksScreen.swift; sourceTree = "<group>"; };
+		FACD44CB207F34CA00ABF3F6 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
 		FCAAC4382DEB2CC76B17572B /* Pods-dotodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dotodo.release.xcconfig"; path = "Pods/Target Support Files/Pods-dotodo/Pods-dotodo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,10 +89,13 @@
 			isa = PBXGroup;
 			children = (
 				FA12313A20164B6F000D31A1 /* AppDelegate.swift */,
-				FA12313C20164B6F000D31A1 /* ViewController.swift */,
-				FA12314C20164C3D000D31A1 /* TaskButton.xib */,
-				FA12314E20165166000D31A1 /* TaskButton.swift */,
 				FA12313E20164B6F000D31A1 /* Main.storyboard */,
+				FACD44C1207F32A100ABF3F6 /* LoadingScreen.swift */,
+				FACD44C3207F32B800ABF3F6 /* LoginScreen.swift */,
+				FACD44C5207F333E00ABF3F6 /* CustomRootTabViewController.swift */,
+				FACD44C7207F344400ABF3F6 /* CalendarScreen.swift */,
+				FACD44C9207F345200ABF3F6 /* TasksScreen.swift */,
+				FACD44CB207F34CA00ABF3F6 /* SettingsScreen.swift */,
 				FA12314120164B6F000D31A1 /* Assets.xcassets */,
 				FA12314320164B6F000D31A1 /* LaunchScreen.storyboard */,
 				FA12314620164B6F000D31A1 /* Info.plist */,
@@ -157,7 +166,6 @@
 			files = (
 				FA12314520164B6F000D31A1 /* LaunchScreen.storyboard in Resources */,
 				FA12314220164B6F000D31A1 /* Assets.xcassets in Resources */,
-				FA12314D20164C3D000D31A1 /* TaskButton.xib in Resources */,
 				FA12314020164B6F000D31A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,9 +224,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA12314F20165166000D31A1 /* TaskButton.swift in Sources */,
-				FA12313D20164B6F000D31A1 /* ViewController.swift in Sources */,
+				FACD44C2207F32A100ABF3F6 /* LoadingScreen.swift in Sources */,
+				FACD44CC207F34CA00ABF3F6 /* SettingsScreen.swift in Sources */,
 				FA12313B20164B6F000D31A1 /* AppDelegate.swift in Sources */,
+				FACD44CA207F345200ABF3F6 /* TasksScreen.swift in Sources */,
+				FACD44C8207F344400ABF3F6 /* CalendarScreen.swift in Sources */,
+				FACD44C4207F32B800ABF3F6 /* LoginScreen.swift in Sources */,
+				FACD44C6207F333E00ABF3F6 /* CustomRootTabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
