@@ -13,6 +13,7 @@
 		FA12314220164B6F000D31A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA12314120164B6F000D31A1 /* Assets.xcassets */; };
 		FA12314520164B6F000D31A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA12314320164B6F000D31A1 /* LaunchScreen.storyboard */; };
 		FA2916C920836336009C17CE /* Clockwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2916C820836336009C17CE /* Clockwork.swift */; };
+		FA2916CB2083757F009C17CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA2916CA2083757E009C17CE /* GoogleService-Info.plist */; };
 		FACD44C2207F32A100ABF3F6 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD44C1207F32A100ABF3F6 /* LoadingScreen.swift */; };
 		FACD44C4207F32B800ABF3F6 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD44C3207F32B800ABF3F6 /* LoginScreen.swift */; };
 		FACD44C6207F333E00ABF3F6 /* CustomRootTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD44C5207F333E00ABF3F6 /* CustomRootTabViewController.swift */; };
@@ -31,6 +32,7 @@
 		FA12314420164B6F000D31A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA12314620164B6F000D31A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA2916C820836336009C17CE /* Clockwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clockwork.swift; sourceTree = "<group>"; };
+		FA2916CA2083757E009C17CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FACD44C1207F32A100ABF3F6 /* LoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
 		FACD44C3207F32B800ABF3F6 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		FACD44C5207F333E00ABF3F6 /* CustomRootTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRootTabViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				FA12313A20164B6F000D31A1 /* AppDelegate.swift */,
+				FA2916CA2083757E009C17CE /* GoogleService-Info.plist */,
 				FA12313E20164B6F000D31A1 /* Main.storyboard */,
 				FACD44C1207F32A100ABF3F6 /* LoadingScreen.swift */,
 				FACD44C3207F32B800ABF3F6 /* LoginScreen.swift */,
@@ -168,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA12314520164B6F000D31A1 /* LaunchScreen.storyboard in Resources */,
+				FA2916CB2083757F009C17CE /* GoogleService-Info.plist in Resources */,
 				FA12314220164B6F000D31A1 /* Assets.xcassets in Resources */,
 				FA12314020164B6F000D31A1 /* Main.storyboard in Resources */,
 			);
