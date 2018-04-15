@@ -3,8 +3,8 @@
 
 > I don't really know what to put here yet so give me a bit... Yes, this is still being built.
 
-## Todo (more like dotodo amirite?) (excuse my 2 am humour):
- 1. Add Calendar view
- 2. Add Tasks view
- 3. Add Settings view
- 4. Fix weird swiping on CustomRootTabViewController. (we need to implement velocity in some way)
+## Todo:
+ 1. Add Calendar view -> basic calendar for now (max 5 rows);
+ 2. Add Settings view -> just add a logout button for now and then start main Firebase integration
+ 3. Fix weird swiping on CustomRootTabViewController. (we need to implement velocity in some way)
+ 4. Make Tasks view better and add more functionality
