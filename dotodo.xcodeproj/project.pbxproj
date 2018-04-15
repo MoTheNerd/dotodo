@@ -12,6 +12,7 @@
 		FA12314020164B6F000D31A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA12313E20164B6F000D31A1 /* Main.storyboard */; };
 		FA12314220164B6F000D31A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA12314120164B6F000D31A1 /* Assets.xcassets */; };
 		FA12314520164B6F000D31A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA12314320164B6F000D31A1 /* LaunchScreen.storyboard */; };
+		FA2916C920836336009C17CE /* Clockwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2916C820836336009C17CE /* Clockwork.swift */; };
 		FACD44C2207F32A100ABF3F6 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD44C1207F32A100ABF3F6 /* LoadingScreen.swift */; };
 		FACD44C4207F32B800ABF3F6 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD44C3207F32B800ABF3F6 /* LoginScreen.swift */; };
 		FACD44C6207F333E00ABF3F6 /* CustomRootTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD44C5207F333E00ABF3F6 /* CustomRootTabViewController.swift */; };
@@ -29,6 +30,7 @@
 		FA12314120164B6F000D31A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA12314420164B6F000D31A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA12314620164B6F000D31A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2916C820836336009C17CE /* Clockwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clockwork.swift; sourceTree = "<group>"; };
 		FACD44C1207F32A100ABF3F6 /* LoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
 		FACD44C3207F32B800ABF3F6 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		FACD44C5207F333E00ABF3F6 /* CustomRootTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRootTabViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				FACD44C3207F32B800ABF3F6 /* LoginScreen.swift */,
 				FACD44C5207F333E00ABF3F6 /* CustomRootTabViewController.swift */,
 				FACD44C7207F344400ABF3F6 /* CalendarScreen.swift */,
+				FA2916C820836336009C17CE /* Clockwork.swift */,
 				FACD44C9207F345200ABF3F6 /* TasksScreen.swift */,
 				FACD44CB207F34CA00ABF3F6 /* SettingsScreen.swift */,
 				FA12314120164B6F000D31A1 /* Assets.xcassets */,
@@ -227,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FACD44C2207F32A100ABF3F6 /* LoadingScreen.swift in Sources */,
+				FA2916C920836336009C17CE /* Clockwork.swift in Sources */,
 				FACD44CC207F34CA00ABF3F6 /* SettingsScreen.swift in Sources */,
 				FA12313B20164B6F000D31A1 /* AppDelegate.swift in Sources */,
 				FACD44CA207F345200ABF3F6 /* TasksScreen.swift in Sources */,
