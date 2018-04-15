@@ -36,7 +36,7 @@ class CalendarCell: UIView {
         self.backgroundColor = UIColor.purple;
         
         if (Clockwork.checkDateActive(dayNo: self.day)) {
-            activate();
+            self.backgroundColor = UIColor.white;
         }
     
         
@@ -54,7 +54,7 @@ class CalendarCell: UIView {
     }
     
     func activate(){
-        self.backgroundColor = UIColor.white;
+        
     }
     
     func deactivate(){
