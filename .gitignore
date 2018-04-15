@@ -68,4 +68,5 @@ fastlane/screenshots
 fastlane/test_output
 
 #GoogleFirebase ignores
-GoogleServices.plist
+*/GoogleService-Info.plist
+GoogleService-Info.plist
