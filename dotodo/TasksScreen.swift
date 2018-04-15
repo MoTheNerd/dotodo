@@ -33,26 +33,23 @@ class TasksScreen : UIViewController {
         //temporary to populate data and then showData()
     }
     
-    func showData() {
-        
-    }
 }
 
 class TaskCell : UIView{
     
     var labelString: String!;
     var theme: Int!;
-    private static var index: Int = 0;
+    private static var currentCount: Int = 0; // starts at 0, I know, I'm sorry
     var offset = 50;
     
     
     
     init (sender: TasksScreen, label: String, theme: Int){
-        super.init(frame: CGRect(x: 0, y: CGFloat.init(self.offset + 56 * TaskCell.index), width: sender.view.frame.width, height: 56));
+        super.init(frame: CGRect(x: 0, y: CGFloat.init(self.offset + 56 * TaskCell.currentCount), width: sender.view.frame.width, height: 56));
         self.labelString = label;
         self.theme = theme;
         self.updateTheme();
-        TaskCell.index += 1;
+        TaskCell.currentCount += 1;
         
         let uiLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
         uiLabel.text = self.labelString
