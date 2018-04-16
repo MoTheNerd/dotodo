@@ -12,10 +12,12 @@ import IGListKit
 class TasksScreen : UIViewController {
     
     var data: [TaskCell]!
+    var addDataButton: TaskAddButton!;
     
     override func viewDidAppear(_ animated: Bool) {
         self.view.backgroundColor = UIColor.cyan;
-        
+        addDataButton = TaskAddButton(frame: CGRect(x: self.view.frame.width/2-25, y: self.view.frame.height - 75, width: 50, height: 50));
+        self.view.addSubview(addDataButton);
         self.populateData();
     }
     
@@ -84,4 +86,25 @@ class TaskCell : UIView{
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented");
     }
+}
+
+
+class TaskAddButton : UIView {
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        backgroundColor = UIColor.black
+    }
+    
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        // prompt new card
+        print("New Card!")
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    
+    
 }

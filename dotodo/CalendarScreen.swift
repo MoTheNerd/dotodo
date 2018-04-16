@@ -26,7 +26,7 @@ class CalendarCell: UIView {
     var day: Int!;
     var activated: Bool!;
     var active:Bool!;
-    var offset = 56;
+    var offset = 50;
     
     init(sender: CalendarScreen, day: Int){
         self.day = day;
